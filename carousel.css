@@ -1,0 +1,342 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+#logo {
+  height:auto;
+  width:350px;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2811, 60, 164, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-dark .navbar-toggler {
+  border-color:#0b3ca4;
+}
+
+#menuitems {
+  color:#0b3ca4;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.font {
+  color:#0b3ca4;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.lead {
+  font-size: 1em;
+}
+
+.dropdown-menu {
+  margin-left:-25px;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.dropdown-item {
+
+  font-family: 'Montserrat',sans-serif;
+  text-align:center;
+  color:#0b3ca4;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  background-color:white;
+  text-decoration: underline;
+  color:#0b3ca4;
+
+}
+
+#mainNav a:hover {
+  color:#25aef5;
+}
+
+#welcomeimage {
+  /* width:100%; */
+  height:40rem;
+  width:auto;
+  position:relative;
+  text-align: center;
+  background-image:url('https://i.ibb.co/zxhxnvD/doctor-ophthalmology.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-bottom:2%;
+}
+
+#welcometext {
+  color:red;
+  margin: 0 auto;
+  padding-top:5rem;
+  padding-left:40rem;
+  padding-right:10rem;
+  font-size:1.5em;
+  font-weight: 600;
+  color:white;
+}
+
+#imagetwo {
+  width:90%;
+  height:auto;
+  margin-bottom:2%;
+}
+
+#imagethree {
+  width:100%;
+  height:auto;
+}
+
+.feedback {
+  font-style: italic;
+}
+
+.hospitalstitle {
+  text-decoration: underline;
+  font-weight:600;
+  font-family: 'Montserrat', sans-serif;
+  color:#0b3ca4;
+  margin-bottom:0px;
+}
+
+.custom-toggler.navbar-toggler {
+            border-color: red;
+        }
+
+.faqtext {
+  font-family: 'Montserrat',sans-serif;
+  color:#0b3ca4;
+  font-size:0.9em;
+}
+
+.faqquestion {
+  font-family: 'Montserrat',sans-serif;
+  color:#25aef5;
+  font-size:0.8em;
+  font-weight:500;
+}
+
+#logo_bottom {
+
+  width:80%;
+  height:auto;
+  text-align:center;
+}
+
+.card {
+  padding:5px;
+  text-align: left;
+  border-style:none!important;
+}
+
+.card-header {
+	border-radius:1.2em!important;
+	background-color: rgba(0,0,0,.03)!important;
+	border-bottom:1px solid rgba(0,0,0,.03)!important;
+}
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  /* bottom: 3rem; */
+  z-index: 10;
+  color:black;
+}
+
+#imagescarousel {
+  width:100%!important;
+}
+
+.carousel-inner {
+  width:70%;
+  margin: 0 auto;
+
+}
+
+/* Declare heights because of positioning of img element */
+/* .carousel-item {
+  height: 20rem;
+
+} */
+/* .carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+} */
+
+.fa-chevron-left {
+  color:#25aef5;
+  font-size:4em;
+}
+
+.fa-chevron-right {
+  color:#25aef5;
+  font-size:4em;
+}
+
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 3rem 0; /* Space out the Bootstrap <hr> more */
+
+}
+
+.featurette-divider-footer {
+  margin: 1.5em; /* Space out the Bootstrap <hr> more */
+
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (max-width: 822px) {
+
+#logodiv {
+  width:50%;
+  height:auto;
+}
+
+#logo {
+  width:150%;
+  height:auto;
+}
+
+#welcometext {
+  display:none;
+}
+
+#welcomeimage {
+    height:16rem;
+    width:auto;
+    position:relative;
+    text-align: center;
+    background-image:url('https://i.ibb.co/zxhxnvD/doctor-ophthalmology.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom:2%;
+
+}
+
+.lead {
+  font-size: 0.8em;
+}
+
+.mobilefontsize {
+  font-size: 1.2em;
+}
+
+.mobilecenter {
+  text-align:center;
+}
+
+.fa-chevron-left {
+  color:#25aef5;
+  font-size:2em;
+}
+
+.fa-chevron-right {
+  color:#25aef5;
+  font-size:2em;
+}
+
+.feedback {
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+.faqtext {
+  font-family: 'Montserrat',sans-serif;
+  color:#0b3ca4;
+  font-size:0.8em;
+}
+
+.featurette-divider-footer {
+  display:none;
+}
+
+.featurette-divider {
+  margin: 1.5rem 0; /* Space out the Bootstrap <hr> more */
+
+}
+
+
+
+.footer {
+  display:none;
+}
+
+
+}
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
